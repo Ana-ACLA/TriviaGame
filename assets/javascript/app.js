@@ -11,7 +11,7 @@ $(document).ready(function(){
 var correct = 0;
 var incorrect = 0;
 var incomplete = 0;
-var seconds = 105;
+var seconds = 77;
 var intervalId;
 
 $("#finish-button").click(finish);
@@ -46,8 +46,8 @@ function finish() {
 
 	$("#questions").html("Correct: " + correct + "<br>");
 	$("#questions").append("Incorrect: " + incorrect + "<br>");
-	$("#questions").append("Incomplete: " + (10 - correct - incorrect) + "<br>");
-	$("#questions").append("<img src=assets/images/image.jpg>");
+	$("#questions").append("Incomplete: " + (7 - correct - incorrect) + "<br>");
+	$("#questions").append("<img src=assets/images/saggyboobs.png>");
 	}
 }
 
